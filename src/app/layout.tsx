@@ -30,7 +30,12 @@ export default function RootLayout({
             {children}
           </div>
           <footer className="fixed bottom-0 left-0 right-0 text-center py-2 text-xs text-gray-400 dark:text-gray-500">
-            RAY AMJAD LTD (14506459)
+            <a
+              href="/company"
+              className="hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+            >
+              RAY AMJAD LTD (14506459)
+            </a>
           </footer>
         </TRPCProvider>
       </body>
