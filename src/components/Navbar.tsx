@@ -22,6 +22,12 @@ export default function Navbar() {
         >
           About
         </Link>
+        <Link
+          href="/company"
+          className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
+        >
+          Company
+        </Link>
       </div>
     </nav>
   );
