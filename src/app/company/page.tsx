@@ -44,6 +44,17 @@ export default function CompanyPage() {
 
           <h3 className="text-xl font-semibold mb-4 mt-8 text-gray-900 dark:text-white">Registered address</h3>
           <address className="not-italic text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+            77 Fields New Road<br />
+            Chadderton, Oldham<br />
+            England, OL9 8BT<br />
+            United Kingdom
+          </address>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+            This is our statutory registered office (England &amp; Wales). For postal correspondence please use our mailing address below.
+          </p>
+
+          <h3 className="text-xl font-semibold mb-4 mt-8 text-gray-900 dark:text-white">Mailing address</h3>
+          <address className="not-italic text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
             Lytchett House, 13 Freeland Park<br />
             Wareham Road<br />
             Poole, Dorset<br />
