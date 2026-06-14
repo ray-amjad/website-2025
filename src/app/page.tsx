@@ -78,12 +78,12 @@ export default function Home() {
             <li>
               <strong className="text-gray-900 dark:text-white">X</strong>{" "}
               <a
-                href="https://x.com/ramjad"
+                href="https://x.com/theramjad"
                 className="text-blue-600 dark:text-white hover:underline underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                @ramjad
+                @theramjad
               </a>
             </li>
           </ul>
