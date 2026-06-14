@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { TRPCProvider } from "@/providers/TRPCProvider";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -25,19 +24,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} font-sans antialiased min-h-screen flex flex-col`}>
-        <TRPCProvider>
-          <div className="flex-1">
-            {children}
-          </div>
-          <footer className="fixed bottom-0 left-0 right-0 text-center py-2 text-xs text-gray-400 dark:text-gray-500">
-            <a
-              href="/company"
-              className="hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
-            >
-              RAY AMJAD LTD (14506459)
-            </a>
-          </footer>
-        </TRPCProvider>
+        <div className="flex-1">
+          {children}
+        </div>
+        <footer className="fixed bottom-0 left-0 right-0 text-center py-2 text-xs text-gray-500 dark:text-gray-400">
+          <a
+            href="/company"
+            className="hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+          >
+            RAY AMJAD LTD (14506459)
+          </a>
+        </footer>
       </body>
     </html>
   );
