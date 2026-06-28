@@ -1,6 +1,6 @@
 # About Ray Amjad
 
-Ray Amjad is a software engineer and creator based in Tokyo, Japan.
+Ray Amjad is an AI engineer and creator based in Tokyo, Japan.
 
 He is the founder of the app studio 21 Dreams (https://21dreams.org), where he
 builds software and apps, and he creates videos on YouTube (@ramjad). He also
@@ -12,7 +12,7 @@ Cambridge. He is currently based in Tokyo and is learning Japanese.
 
 ## Key facts
 - Name: Ray Amjad
-- Occupation: Software engineer, creator, founder of 21 Dreams
+- Occupation: AI engineer, creator, founder of 21 Dreams
 - Location: Tokyo, Japan
 - Studio: 21 Dreams (https://21dreams.org)
 - Company: RAY AMJAD LTD (UK company no. 14506459)
@@ -20,7 +20,7 @@ Cambridge. He is currently based in Tokyo and is learning Japanese.
 - Nationality: British
 
 ## Official website
-https://rayamjad.com
+https://www.rayamjad.com
 
 ## Profiles
 - YouTube: https://www.youtube.com/@ramjad
@@ -30,4 +30,4 @@ https://rayamjad.com
 
 ## Press
 Ray has been featured in the BBC, The Independent, AOL, Yahoo News, and MSN.
-See https://rayamjad.com/press
+See https://www.rayamjad.com/press

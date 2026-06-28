@@ -7,14 +7,14 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-const SITE_URL = "https://rayamjad.com";
+const SITE_URL = "https://www.rayamjad.com";
 const DESCRIPTION =
-  "Ray Amjad is a software engineer and creator based in Tokyo, Japan. Founder of the app studio 21 Dreams and creator on YouTube.";
+  "Ray Amjad is an AI engineer and creator based in Tokyo, Japan. Founder of the app studio 21 Dreams and creator on YouTube.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Ray Amjad — Software Engineer & Creator",
+    default: "Ray Amjad — AI Engineer & Creator",
     template: "%s — Ray Amjad",
   },
   description: DESCRIPTION,
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     type: "website",
     url: SITE_URL + "/",
     siteName: "Ray Amjad",
-    title: "Ray Amjad — Software Engineer & Creator",
+    title: "Ray Amjad — AI Engineer & Creator",
     description: DESCRIPTION,
     locale: "en_US",
     images: [
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@theramjad",
     creator: "@theramjad",
-    title: "Ray Amjad — Software Engineer & Creator",
+    title: "Ray Amjad — AI Engineer & Creator",
     description: DESCRIPTION,
     images: ["/headshot.jpg"],
   },
@@ -61,8 +61,8 @@ const jsonLd = {
       url: SITE_URL + "/",
       image: SITE_URL + "/headshot.jpg",
       description:
-        "Software engineer and creator based in Tokyo, Japan. Founder of the app studio 21 Dreams.",
-      jobTitle: "Software engineer & creator",
+        "AI engineer and creator based in Tokyo, Japan. Founder of the app studio 21 Dreams.",
+      jobTitle: "AI engineer & creator",
       gender: "Male",
       nationality: { "@type": "Country", name: "United Kingdom" },
       homeLocation: {
