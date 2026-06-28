@@ -9,12 +9,12 @@ const inter = Inter({
 
 const SITE_URL = "https://www.rayamjad.com";
 const DESCRIPTION =
-  "Ray Amjad is an AI engineer and creator based in Tokyo, Japan. Founder of the app studio 21 Dreams and creator on YouTube.";
+  "Ray Amjad is an agentic engineer and educator based in Tokyo, Japan. Founder of the app studio 21 Dreams, he makes videos about agentic engineering, Claude Code, Codex, and AI agents on YouTube.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Ray Amjad — AI Engineer & Creator",
+    default: "Ray Amjad — Agentic Engineer & Educator",
     template: "%s — Ray Amjad",
   },
   description: DESCRIPTION,
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     type: "website",
     url: SITE_URL + "/",
     siteName: "Ray Amjad",
-    title: "Ray Amjad — AI Engineer & Creator",
+    title: "Ray Amjad — Agentic Engineer & Educator",
     description: DESCRIPTION,
     locale: "en_US",
     images: [
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@theramjad",
     creator: "@theramjad",
-    title: "Ray Amjad — AI Engineer & Creator",
+    title: "Ray Amjad — Agentic Engineer & Educator",
     description: DESCRIPTION,
     images: ["/headshot.jpg"],
   },
@@ -61,8 +61,8 @@ const jsonLd = {
       url: SITE_URL + "/",
       image: SITE_URL + "/headshot.jpg",
       description:
-        "AI engineer and creator based in Tokyo, Japan. Founder of the app studio 21 Dreams.",
-      jobTitle: "AI engineer & creator",
+        "Agentic engineer and educator based in Tokyo, Japan. Founder of the app studio 21 Dreams.",
+      jobTitle: "Agentic engineer & educator",
       gender: "Male",
       nationality: { "@type": "Country", name: "United Kingdom" },
       homeLocation: {
@@ -79,11 +79,13 @@ const jsonLd = {
         sameAs: "https://www.wikidata.org/wiki/Q35794",
       },
       knowsAbout: [
-        "Entrepreneurship",
+        "Agentic Engineering",
+        "AI Coding",
+        "AI Agents",
+        "Claude Code",
+        "Codex",
         "Software Development",
         "App Development",
-        "Content Creation",
-        "Startups",
       ],
       worksFor: { "@id": "https://21dreams.org/#org" },
       affiliation: [
