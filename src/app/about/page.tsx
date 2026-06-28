@@ -22,7 +22,7 @@ export default function AboutPage() {
             </a>.
           </p>
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-            My main hobby these days is learning Japanese.
+            These days I&apos;m based in Tokyo, where my main hobby is learning Japanese.
           </p>
         </section>
       </div>
